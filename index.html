@@ -24,16 +24,53 @@
 
         <div class="input-box">
             <label for="input1">This is a Label</label>
-            <input type="text" id="input1">
+            <input type="text" id="input1" placeholder="This is an input box">
         </div>
+
+        <div class="input-box">
+            <label for="select_element">
+                Select item
+            </label>
+
+            <select name="select_element" id="select_element">
+                <option value="1">Select</option>
+                <option value="1">Yavatmal</option>
+                <option value="1">Shegaon</option>
+                <option value="1">Nimba Fata</option>
+                <option value="1">Akola</option>
+                <option value="1">Arni</option>
+            </select>
+        </div>
+
+        <div id="mouse_area">
+            Action using mouse on this area
+        </div>
+
+        <div class="input-box">
+            <button id="click_me">Click me</button>
+        </div>
+
+        <p>
+            Events occured in this Page
+            <ul>
+                <li>input - Typing in the input</li>
+                <li>focus - Clicking on the input to act on it</li>
+                <li>focus - Clicking on the input to act on it</li>
+                <li>blur - Removing the focus from an element</li>
+                <li>change - Changing something in an element</li>
+                <li>mouseover - Entering the mouse in an element</li>
+                <li>mouseleave or mouseout - Leaving mouse from an element</li>
+            </ul>
+        </p>
+
     </form>
+
 
     <section class="status-bar">
         <h1>Status Bar</h1>
         <p id="status">
             Interact with form to get what's happening
         </p>
-
     </section>
 
     <script src="script.js"></script>
